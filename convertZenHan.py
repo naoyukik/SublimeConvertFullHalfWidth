@@ -1,24 +1,17 @@
 import sublime
 import sublime_plugin
-from . import zenhan
-
+from . import jctconv
 
 class ConvertZenHanCommand(sublime_plugin.TextCommand):
     def run(self, edit, to, target):
         option = 0
         sels = self.view.sel()
-        for target_str in target:
-            target_int = getattr(zenhan, target_str.upper())
-            if target_int >= 7:
-                option = option | target_int
-                break
-            option = option | target_int
-
+        print(target[0])
         for sel in sels:
             selection_word = self.view.substr(sel)
             if to == 'zen':
-                result = zenhan.h2z(selection_word, option)
+                result = jctconv.h2z(selection_word, target[0])
             else:
-                result = zenhan.z2h(selection_word, option)
+                result = jctconv.z2h(selection_word, target[0])
 
             self.view.replace(edit, sel, result)
