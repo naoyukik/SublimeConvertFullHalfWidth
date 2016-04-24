@@ -1,0 +1,41 @@
+[
+    {
+        "id": "convertzenhan",
+        "caption": "convertZenHan",
+        "children":
+        [
+            {
+                "caption": "All",
+                "children":
+                [
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "zen", "target": ["ALL"]},
+                        "caption": "toFullWidth"
+                    },
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "han", "target": ["ALL"]},
+                        "caption": "toHalfWidth"
+                    }
+                ]
+            },
+            {
+                "caption": "Digit",
+                "children":
+                [
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "zen", "target": ["ALL"]},
+                        "caption": "toFullWidth"
+                    },
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "han", "target": ["ALL"]},
+                        "caption": "toHalfWidth"
+                    }
+                ]
+            },
+        ]
+    }
+]
