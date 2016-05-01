@@ -10,12 +10,44 @@
                 [
                     {
                         "command": "convert_zen_han",
-                        "args": {"to": "zen", "target": ["ALL"]},
+                        "args": {"to": "zen", "kana": true, "ascii": true, "digit": true},
                         "caption": "toFullWidth"
                     },
                     {
                         "command": "convert_zen_han",
-                        "args": {"to": "han", "target": ["ALL"]},
+                        "args": {"to": "han", "kana": true, "ascii": true, "digit": true},
+                        "caption": "toHalfWidth"
+                    }
+                ]
+            },
+            {
+                "caption": "kana",
+                "children":
+                [
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "zen", "kana": true},
+                        "caption": "toFullWidth"
+                    },
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "han", "kana": true},
+                        "caption": "toHalfWidth"
+                    }
+                ]
+            },
+            {
+                "caption": "ascii",
+                "children":
+                [
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "zen", "ascii": true},
+                        "caption": "toFullWidth"
+                    },
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "han", "ascii": true},
                         "caption": "toHalfWidth"
                     }
                 ]
@@ -26,12 +58,12 @@
                 [
                     {
                         "command": "convert_zen_han",
-                        "args": {"to": "zen", "target": ["ALL"]},
+                        "args": {"to": "zen", "digit": true},
                         "caption": "toFullWidth"
                     },
                     {
                         "command": "convert_zen_han",
-                        "args": {"to": "han", "target": ["ALL"]},
+                        "args": {"to": "han", "digit": true},
                         "caption": "toHalfWidth"
                     }
                 ]
