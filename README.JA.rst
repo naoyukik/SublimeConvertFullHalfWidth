@@ -11,9 +11,10 @@ ConvertZenHan
 
 インストール
 ------------
-Package Contorolに登録しています。下記の名前で検索できます。
+コマンドパレットの Package Control: Add Repository コマンドを使用し、下記のURLを登録してください。その後、Package Control から Install 出来るようになります
 
-ConvertZenHan
+https://github.com/naoyukik/SublimeConvertZenHan
+
 
 使用方法
 --------
