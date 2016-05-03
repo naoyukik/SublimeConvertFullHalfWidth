@@ -7,6 +7,8 @@ ConvertZenHan
 | Sublime Text 3向けの全角文字を半角に、半角文字を全角へ変換するのをサポートするパッケージです。
 | カタカナ(Kana)・アルファベット(Ascii)・数字(Digit)を全角半角へ変換するコマンドを用意しています。
 
+また、このプラグインは全角半角変換に `jaconv <https://pypi.python.org/pypi/jaconv/>` 使用しています。
+
 インストール
 ------------
 Package Contorolに登録しています。下記の名前で検索できます。
