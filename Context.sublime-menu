@@ -1,7 +1,7 @@
 [
     {
         "id": "convertzenhan",
-        "caption": "convertZenHan",
+        "caption": "ConvertZenHan",
         "children":
         [
             {
@@ -11,44 +11,28 @@
                     {
                         "command": "convert_zen_han",
                         "args": {"to": "zen", "kana": true, "ascii": true, "digit": true},
-                        "caption": "toFullWidth"
+                        "caption": "to Full-width"
                     },
                     {
                         "command": "convert_zen_han",
                         "args": {"to": "han", "kana": true, "ascii": true, "digit": true},
-                        "caption": "toHalfWidth"
+                        "caption": "to Half-width"
                     }
                 ]
             },
             {
-                "caption": "kana",
-                "children":
-                [
-                    {
-                        "command": "convert_zen_han",
-                        "args": {"to": "zen", "kana": true},
-                        "caption": "toFullWidth"
-                    },
-                    {
-                        "command": "convert_zen_han",
-                        "args": {"to": "han", "kana": true},
-                        "caption": "toHalfWidth"
-                    }
-                ]
-            },
-            {
-                "caption": "ascii",
+                "caption": "Ascii",
                 "children":
                 [
                     {
                         "command": "convert_zen_han",
                         "args": {"to": "zen", "ascii": true},
-                        "caption": "toFullWidth"
+                        "caption": "to Full-width"
                     },
                     {
                         "command": "convert_zen_han",
                         "args": {"to": "han", "ascii": true},
-                        "caption": "toHalfWidth"
+                        "caption": "to Half-width"
                     }
                 ]
             },
@@ -59,12 +43,28 @@
                     {
                         "command": "convert_zen_han",
                         "args": {"to": "zen", "digit": true},
-                        "caption": "toFullWidth"
+                        "caption": "to Full-width"
                     },
                     {
                         "command": "convert_zen_han",
                         "args": {"to": "han", "digit": true},
-                        "caption": "toHalfWidth"
+                        "caption": "to Half-width"
+                    }
+                ]
+            },
+            {
+                "caption": "Kana",
+                "children":
+                [
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "zen", "kana": true},
+                        "caption": "to Full-width"
+                    },
+                    {
+                        "command": "convert_zen_han",
+                        "args": {"to": "han", "kana": true},
+                        "caption": "to Half-width"
                     }
                 ]
             },

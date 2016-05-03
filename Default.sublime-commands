@@ -1,0 +1,42 @@
+[
+    {
+        "caption": "ConvertZenHan: All to Full-width",
+        "command": "convert_zen_han",
+        "args": {"to": "zen", "kana": true, "ascii": true, "digit": true},
+    },
+    {
+        "caption": "ConvertZenHan: All to Half-width",
+        "command": "convert_zen_han",
+        "args": {"to": "han", "kana": true, "ascii": true, "digit": true},
+    },
+    {
+        "caption": "ConvertZenHan: Kana to Full-width",
+        "command": "convert_zen_han",
+        "args": {"to": "zen", "kana": true},
+    },
+    {
+        "caption": "ConvertZenHan: Kana to Half-width",
+        "command": "convert_zen_han",
+        "args": {"to": "han", "kana": true},
+    },
+    {
+        "caption": "ConvertZenHan: Ascii to Full-width",
+        "command": "convert_zen_han",
+        "args": {"to": "zen", "ascii": true},
+    },
+    {
+        "caption": "ConvertZenHan: Ascii to Half-width",
+        "command": "convert_zen_han",
+        "args": {"to": "han", "ascii": true},
+    },
+    {
+        "caption": "ConvertZenHan: Digit to Full-width",
+        "command": "convert_zen_han",
+        "args": {"to": "zen", "digit": true},
+    },
+    {
+        "caption": "ConvertZenHan: Digit to Half-width",
+        "command": "convert_zen_han",
+        "args": {"to": "han", "digit": true},
+    },
+]
