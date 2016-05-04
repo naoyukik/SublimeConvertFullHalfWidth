@@ -1,20 +1,20 @@
-*************
-ConvertZenHan
-*************
+********************
+ConvertFullHalfWidth
+********************
 
 About
 -----
-CovertZenHan supported for sublime text 3.
+ConvertFullHalfWidth supported for sublime text 3.
 
 It convert Full-width to Half-width or Half-width to Full-width.
-It Supported Katakana, Alphabet and Number.
+It Supported Katakana(kana), Alphabet(acii) and Number(digit).
 
 
 Installation
 ------------
 It's simple. Use Package Control.
 
-Search ConvertZenHan
+Search ConvertFullHalfWidth
 
 
 key Binding
@@ -27,8 +27,8 @@ Key map example.
 
     [
         // All Word convert to full-width.
-        { "keys": ["ctrl+shift+a, ctrl+shift+"], "command": "convert_zen_han", "args": {"to": "zen", "kana": true, "ascii": true, "digit": true}},
+        { "keys": ["ctrl+shift+a, ctrl+shift+"], "command": "convert_full_half_width", "args": {"to": "full", "kana": true, "ascii": true, "digit": true}},
 
         // Katakana convert to half-width.
-        { "keys": ["ctrl+shift+k, ctrl+shift+f"], "command": "convert_zen_han", "args": {"to": "han", "kana": true}},
+        { "keys": ["ctrl+shift+k, ctrl+shift+f"], "command": "convert_full_half_width", "args": {"to": "half", "kana": true}},
     ]
