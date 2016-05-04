@@ -1,6 +1,6 @@
-*************
-ConvertZenHan
-*************
+********************
+ConvertFullHalfWidth
+********************
 
 プラグインについて
 ------------------
@@ -9,22 +9,24 @@ ConvertZenHan
 
 また、このプラグインは全角半角変換に `jaconv <https://pypi.python.org/pypi/jaconv/>` 使用しています。
 
+※ 以前からConvertZenHanは名前はすでに同様の名前がありましたので変更いたしました。
+
 インストール
 ------------
 コマンドパレットの Package Control: Add Repository コマンドを使用し、下記のURLを登録してください。その後、Package Control から Install 出来るようになります
 
-https://github.com/naoyukik/SublimeConvertZenHan
+https://github.com/naoyukik/SublimeConvertFullHalfWidth
 
 
 使用方法
 --------
 コンテキストメニュー
-  コンテキストメニューにconvertZenHanのメニューを追加してあります。
+  コンテキストメニューにConvertFullHalfWidthのメニューを追加してあります。
   変換したい文字列を選択し、メニューから変換方法を選んでください。
 
 コマンドパレット
 	コマンドパレットからコマンドを呼び出すことが出来ます。
-	ConvertZenHan: で登録してあります。
+	ConvertFullHalfWidth: で登録してあります。
 	変換したい文字列を選択し、コマンドパレットから変換方法を選んでください。
 
 
@@ -38,8 +40,8 @@ https://github.com/naoyukik/SublimeConvertZenHan
 
     [
         // 全ての文字列を全角へ
-        { "keys": ["ctrl+shift+a, ctrl+shift+"], "command": "convert_zen_han", "args": {"to": "zen", "kana": true, "ascii": true, "digit": true}},
+        { "keys": ["ctrl+shift+a, ctrl+shift+"], "command": "convert_full_half", "args": {"to": "full", "kana": true, "ascii": true, "digit": true}},
 
         // カタカナを半角へ
-        { "keys": ["ctrl+shift+k, ctrl+shift+f"], "command": "convert_zen_han", "args": {"to": "han", "kana": true}},
+        { "keys": ["ctrl+shift+k, ctrl+shift+f"], "command": "convert_full_half", "args": {"to": "half", "kana": true}},
     ]

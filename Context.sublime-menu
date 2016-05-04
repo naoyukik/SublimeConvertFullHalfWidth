@@ -1,7 +1,7 @@
 [
     {
-        "id": "convertzenhan",
-        "caption": "ConvertZenHan",
+        "id": "convertFullHalfWidth",
+        "caption": "ConvertFullHalfWidth",
         "children":
         [
             {
@@ -9,13 +9,13 @@
                 "children":
                 [
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "zen", "kana": true, "ascii": true, "digit": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "full", "kana": true, "ascii": true, "digit": true},
                         "caption": "to Full-width"
                     },
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "han", "kana": true, "ascii": true, "digit": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "half", "kana": true, "ascii": true, "digit": true},
                         "caption": "to Half-width"
                     }
                 ]
@@ -25,13 +25,13 @@
                 "children":
                 [
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "zen", "ascii": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "full", "ascii": true},
                         "caption": "to Full-width"
                     },
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "han", "ascii": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "half", "ascii": true},
                         "caption": "to Half-width"
                     }
                 ]
@@ -41,13 +41,13 @@
                 "children":
                 [
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "zen", "digit": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "full", "digit": true},
                         "caption": "to Full-width"
                     },
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "han", "digit": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "half", "digit": true},
                         "caption": "to Half-width"
                     }
                 ]
@@ -57,13 +57,13 @@
                 "children":
                 [
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "zen", "kana": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "full", "kana": true},
                         "caption": "to Full-width"
                     },
                     {
-                        "command": "convert_zen_han",
-                        "args": {"to": "han", "kana": true},
+                        "command": "convert_full_half_width",
+                        "args": {"to": "half", "kana": true},
                         "caption": "to Half-width"
                     }
                 ]
