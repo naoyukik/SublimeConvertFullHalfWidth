@@ -7,7 +7,7 @@ About
 ConvertFullHalfWidth supported for sublime text 3.
 
 It convert Full-width to Half-width or Half-width to Full-width.
-It Supported Katakana(kana), Alphabet(acii) and Number(digit).
+It Supported Katakana(kana), Alphabet(ascii) and Number(digit).
 
 
 Installation
