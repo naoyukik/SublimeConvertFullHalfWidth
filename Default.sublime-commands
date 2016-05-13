@@ -39,4 +39,19 @@
         "command": "convert_full_half_width",
         "args": {"to": "half", "digit": true},
     },
+    {
+        "caption": "ConvertFullHalfWidth: Hiragana to Katakana",
+        "command": "convert_hira_kata",
+        "args": {"to": "kata"},
+    },
+    {
+        "caption": "ConvertFullHalfWidth: Hiragana to Half Katakana",
+        "command": "convert_hira_kata",
+        "args": {"to": "kata", "half": true},
+    },
+    {
+        "caption": "ConvertFullHalfWidth: Katakana to Hiragana",
+        "command": "convert_hira_kata",
+        "args": {"to": "hira"},
+    },
 ]

@@ -69,5 +69,39 @@
                 ]
             },
         ]
+    },
+    {
+        "id": "convertHiraKata",
+        "caption": "ConvertHiraKata",
+        "children":
+        [
+            {
+                "caption": "HiraToKata",
+                "children":
+                [
+                    {
+                        "command": "convert_hira_kata",
+                        "args": {"to": "kata"},
+                        "caption": "to Katakana"
+                    },
+                    {
+                        "command": "convert_hira_kata",
+                        "args": {"to": "kata", "half": true},
+                        "caption": "to Half Katakana"
+                    }
+                ]
+            },
+            {
+                "caption": "KataToHira",
+                "children":
+                [
+                    {
+                        "command": "convert_hira_kata",
+                        "args": {"to": "hira"},
+                        "caption": "to Hiragana"
+                    }
+                ]
+            }
+        ]
     }
 ]
