@@ -13,9 +13,15 @@ ConvertFullHalfWidth
 
 インストール
 ------------
-コマンドパレットの Package Control: Add Repository コマンドを使用し、下記のURLを登録してください。その後、Package Control から Install 出来るようになります
+#. Package Contorol
+    Package Contorolへ登録しています。下記の名前で検索できます。
 
-https://github.com/naoyukik/SublimeConvertFullHalfWidth
+    ConvertFullHalfWidth
+
+#. Package Control: Add Repository
+    コマンドパレットの Package Control: Add Repository コマンドを使用し、下記のURLを登録してください。その後、Package Control から Install 出来るようになります
+
+    https://github.com/naoyukik/SublimeConvertFullHalfWidth
 
 
 使用方法
