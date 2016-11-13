@@ -9,7 +9,7 @@ ConvertFullHalfWidth
 
 また、このプラグインは全角半角変換に `jaconv <https://pypi.python.org/pypi/jaconv/>` 使用しています。
 
-※ 以前からConvertZenHanは名前はすでに同様の名前がありましたので変更いたしました。
+※ 以前はConvertZenHanという名称でしたが、同様の名称がすでにPackage Controlに登録されていましたので変更しました。
 
 インストール
 ------------
